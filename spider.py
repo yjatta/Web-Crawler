@@ -56,7 +56,8 @@ class Spider:
             finder.feed(html_string)
 
         except:
-            print("Error cannot crawl page")
+            print("Error cannot crawl page. Make sure you are connected to the internet")
+            exit(1)
             return set()
         return finder.page_links()
 
@@ -64,7 +65,7 @@ class Spider:
     def add_links_to_queue(links):
         for url in links:
             if url in Spider.queue:
-                continue # don't add if it is already in the queue
+                continue  # don't add if it is already in the queue
             if url in Spider.crawled:
                 continue  # don't add if is already crawled
             if Spider.domain_name not in url:
