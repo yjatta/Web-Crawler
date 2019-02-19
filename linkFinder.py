@@ -18,6 +18,8 @@ class LinkFinder(HTMLParser):
             for (attribute, value) in attrs:
                 if attribute == 'href':
                     url = parse.urljoin(self.base_url, value)
+                    if url[-1] == '/':  # to remove trailing backslash '/'
+                        url = url[:-1]  # to avoid duplicate hompage links
                     self.links.add(url)
                     # print(url)
 
