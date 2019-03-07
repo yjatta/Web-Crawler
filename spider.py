@@ -19,7 +19,7 @@ class Spider:
     # duplicate links on a page adding to crawled file
 
     def __init__(self, project_name, base_url, domain_name):
-        Spider.project_name =project_name
+        Spider.project_name = project_name
         Spider.base_url = base_url
         Spider.domain_name = domain_name
         Spider.queue_file = project_name + '/queue.txt'

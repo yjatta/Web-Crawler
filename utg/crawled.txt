@@ -1,4 +1,3 @@
 https://utg.gm
 https://utg.gm/login
-https://utg.gm/login 
 https://utg.gm/password/reset
