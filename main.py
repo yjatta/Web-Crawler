@@ -47,5 +47,6 @@ def crawl():
         print(str(len(queue_links)) + ' Links in the queue')
         create_jobs()
 
+
 create_spiders()
 crawl()

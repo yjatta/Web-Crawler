@@ -1,5 +1,5 @@
 from urllib.request import urlopen
-from linkFinder import LinkFinder
+from linkfinderLxml import AppCrawler
 from general import *
 
 
@@ -52,14 +52,14 @@ class Spider:
             # if results.getheader('Content-Type') == 'text/html':
             html_bytes = results.read()
             html_string = html_bytes.decode("utf-8")
-            finder = LinkFinder(Spider.base_url, page_url)
-            finder.feed(html_string)
+            finder = AppCrawler(Spider.base_url, page_url, 3)
+            finder.crawl()
 
         except:
             print("Error cannot crawl page. Make sure you are connected to the internet")
             exit(1)
             return set()
-        return finder.page_links()
+        return finder.getLinks()
 
     @staticmethod
     def add_links_to_queue(links):
