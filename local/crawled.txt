@@ -1,0 +1,15 @@
+http://cayor:8069
+http://cayor:8069/aboutus
+http://cayor:8069/contactus
+http://cayor:8069/slides
+http://cayor:8069/slides/partner-channel-2
+http://cayor:8069/slides/public-channel-1
+http://cayor:8069/slides/public-channel-1/document
+http://cayor:8069/slides/slide/compiler-construction-wirth-n-1
+http://cayor:8069/web/login
+http://cayor:8069?sorting=date
+http://cayor:8069?sorting=view
+http://cayor:8069?sorting=vote
+http://www.linkedin.com/shareArticle?mini=true&url=http://cayor:8069/slides/slide/compiler-construction-wirth-n-1&title=Compiler_Construction__Wirth_N_&
+https://plus.google.com/share?url=http://cayor:8069/slides/slide/compiler-construction-wirth-n-1
+https://www.facebook.com/sharer/sharer.php?u=http://cayor:8069/slides/slide/compiler-construction-wirth-n-1

@@ -2,7 +2,7 @@ from urllib.parse import urlparse
 
 # get doamin name (example.com)
 
-
+#href='/page/
 def get_domain_name(url):
     try:
         results = get_sub_domain_name(url).split('.')

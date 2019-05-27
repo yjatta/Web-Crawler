@@ -1,0 +1,14 @@
+http://cayor:8069#about
+http://cayor:8069#discuss
+http://cayor:8069#most_viewed
+http://cayor:8069#related
+http://cayor:8069#share
+http://cayor:8069#statistic
+http://cayor:8069#transcript
+http://cayor:8069/feed
+http://cayor:8069/jobs
+http://cayor:8069/messaging
+http://cayor:8069/mynetwork
+http://cayor:8069/notifications
+http://cayor:8069/web?redirect=http://cayor:8069/slides/slide/compiler-construction-wirth-n-1
+https://twitter.com/intent/tweet?text=Compiler_Construction__Wirth_N_&url=http://cayor:8069/slides/slide/compiler-construction-wirth-n-1

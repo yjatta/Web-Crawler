@@ -36,7 +36,10 @@ class Spider:
 
     @staticmethod
     def crawl_page(thread_name, page_url):
-        if page_url not in Spider.crawled:
+        if Spider.domain_name not in page_url:
+            Spider.queue.remove(page_url)
+
+        elif page_url not in Spider.crawled:
             print(thread_name + " now crawling " + page_url)
             print("Queue " + str(len(Spider.queue)) + " | Crawled " + str(len(Spider.crawled)))
             Spider.add_links_to_queue(Spider.get_links(page_url))
@@ -46,19 +49,14 @@ class Spider:
 
     @staticmethod
     def get_links(page_url):
-        html_string = ''
+        finder = AppCrawler(Spider.base_url, page_url, 3)
         try:
-            results = urlopen(page_url)
-            # if results.getheader('Content-Type') == 'text/html':
-            html_bytes = results.read()
-            html_string = html_bytes.decode("utf-8")
-            finder = AppCrawler(Spider.base_url, page_url, 3)
+
             finder.crawl()
 
         except:
             print("Error cannot crawl page. Make sure you are connected to the internet")
-            exit(1)
-            return set()
+
         return finder.getLinks()
 
     @staticmethod

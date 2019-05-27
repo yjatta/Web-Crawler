@@ -1,7 +1,10 @@
-http://cayorenterprises.com
-http://cayorenterprises.com/#bout
-http://cayorenterprises.com/#contact
-http://cayorenterprises.com/#industries
-http://cayorenterprises.com/#partnership
-http://cayorenterprises.com/#services
-http://cayorenterprises.com/#team
+http://cayor:8069
+http://cayor:8069/aboutus
+http://cayor:8069/blog
+http://cayor:8069/contactus
+http://cayor:8069/livechat
+http://cayor:8069/web/login
+http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Foic.cayor.tech%3A8069%2F%23&title=Home%20%7C%20My%20Website&
+https://plus.google.com/share?url=http%3A%2F%2Foic.cayor.tech%3A8069%2F%23
+https://twitter.com/intent/tweet?text=Home%20%7C%20My%20Website&url=http%3A%2F%2Foic.cayor.tech%3A8069%2F%23
+https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Foic.cayor.tech%3A8069%2F%23

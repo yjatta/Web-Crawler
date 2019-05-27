@@ -27,6 +27,8 @@ class AppCrawler:
                     join = join[:-1]  # to avoid duplicate hompage links
                 if join in self.links:
                     continue
+                if base_url not in join:
+                    continue
                 self.links.add(join)
             # for l in self.links:
             #     print(l)
