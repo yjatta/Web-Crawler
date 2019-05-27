@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Crawler</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/custom.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <form action="http://0.0.0.0:5000/crawl" method="POST">
+                <div class="text-center">
+                    <h1>WEB CRAWLER</h1><br><br>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="p_name">Project Name</label>
+                            <input type="text" class="form-control" name="project_name" id="p_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="d_name">Domain Name</label>
+                            <input type="text" class="form-control" name="domain_name" id="d_name">
+                        </div>
+
+                        <input type="submit" class="form-control btn btn-primary"><br><br>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+
+</div>
+</body>
+
+</html>

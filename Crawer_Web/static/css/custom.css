@@ -1,0 +1,19 @@
+body {
+    background-color: #f0f3f5;
+}
+
+.container {
+    margin-top: 120px;
+}
+
+.card {
+    border-radius: 7%;
+}
+
+.card-header {
+    background-color: white;
+}
+
+h1{
+    font-family: "Deja Vu Sans Mono";
+}
